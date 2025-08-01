@@ -30,8 +30,53 @@
     justify-content: flex-start;
     flex-basis: 70%;
 }
+/*Descripciones*/
 .description{
     background-color: #1F2937;
     height: 300px;
     width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.description .descriptiontextawesome{
+    border-style: ridge;
+    width: 400;
+    border-color: white;
+    font-weight: 900px;
+    font-size: 48px;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    align-items: start;
+}
+.description .placeholderimg{
+    border-color: white;
+    border-style: ridge;
+    flex-wrap: wrap;
+    justify-content: end;
+    flex-basis: 50%;
+    align-items: flex-start;
+}
+.description .descriptiontext{
+    border-color: red;
+    border-style: ridge;
+    align-content: center;
+    padding-left: 20%;
+    align-self: center;
+    width: 30%;
+    height: 50%;
+}
+.description .placeholderforweb{
+    border-color: white;
+    border-style: dotted;
+    align-content: center;
+    background-color: rgb(192, 211, 228);
+    background-blend-mode: color;
+    width: 30%;
+    height: 50%;
+}
+.description .placeholderforweb .placeholderimg{
+    flex-direction: column;
+    padding-left: 30%;
 }
