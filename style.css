@@ -33,7 +33,7 @@
 /*Descripciones*/
 .description{
     background-color: #1F2937;
-    height: 300px;
+    height: 400px;
     width: 100%;
     color: white;
     display: flex;
@@ -79,4 +79,49 @@
 .description .placeholderforweb .placeholderimg{
     flex-direction: column;
     padding-left: 30%;
+}
+.button{
+    background-color: #3882F6;
+    color: white;
+}
+.information{
+    display: flex;
+
+}
+.sminformation{
+    font-size: 36px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900px;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 35%;
+    
+    
+}
+
+.boxes{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.img{
+    /*display: flex;*/
+    border-color: #1F2937;
+    border-style: ridge;
+    width: 150px;
+    height: 150px;
+
+}
+.boxtext{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 1%;
+    
 }
